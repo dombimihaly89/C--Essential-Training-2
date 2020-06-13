@@ -1,0 +1,8 @@
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\EssentialTraining\EssentialTraining\bin\Debug\netstandard2.0\EssentialTraining.deps.json
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\EssentialTraining\EssentialTraining\bin\Debug\netstandard2.0\EssentialTraining.dll
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\EssentialTraining\EssentialTraining\bin\Debug\netstandard2.0\EssentialTraining.pdb
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\EssentialTraining\EssentialTraining\obj\Debug\netstandard2.0\EssentialTraining.AssemblyInfoInputs.cache
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\EssentialTraining\EssentialTraining\obj\Debug\netstandard2.0\EssentialTraining.AssemblyInfo.cs
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\EssentialTraining\EssentialTraining\obj\Debug\netstandard2.0\EssentialTraining.csproj.CoreCompileInputs.cache
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\EssentialTraining\EssentialTraining\obj\Debug\netstandard2.0\EssentialTraining.dll
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\EssentialTraining\EssentialTraining\obj\Debug\netstandard2.0\EssentialTraining.pdb
