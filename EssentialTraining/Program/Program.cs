@@ -22,9 +22,13 @@ namespace Program
             //simpleArray.myList.Sort();
             //Console.WriteLine(simpleArray.myList[1]);
             //Console.WriteLine(simpleArray.containsAnimal("zebra"));
-
+            Console.WriteLine("LINQ: ");
             var simpleLINQ = new SimpleLINQ();
             simpleLINQ.SomeLinqMethods();
+
+            Console.WriteLine("Dictionary: ");
+            var simpleDictionary = new SimpleDictionary();
+            simpleDictionary.WorkWithDictionary();
         }
     }
 }
