@@ -1,0 +1,13 @@
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\bin\Debug\netcoreapp3.1\SimpleArrays.exe
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\bin\Debug\netcoreapp3.1\SimpleArrays.deps.json
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\bin\Debug\netcoreapp3.1\SimpleArrays.runtimeconfig.json
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\bin\Debug\netcoreapp3.1\SimpleArrays.runtimeconfig.dev.json
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\bin\Debug\netcoreapp3.1\SimpleArrays.dll
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\bin\Debug\netcoreapp3.1\SimpleArrays.pdb
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\obj\Debug\netcoreapp3.1\SimpleArrays.csprojAssemblyReference.cache
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\obj\Debug\netcoreapp3.1\SimpleArrays.AssemblyInfoInputs.cache
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\obj\Debug\netcoreapp3.1\SimpleArrays.AssemblyInfo.cs
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\obj\Debug\netcoreapp3.1\SimpleArrays.csproj.CoreCompileInputs.cache
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\obj\Debug\netcoreapp3.1\SimpleArrays.dll
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\obj\Debug\netcoreapp3.1\SimpleArrays.pdb
+C:\Users\dombi\OneDrive\Asztali gép\C# Essential Training 2\SimpleArrays\SimpleArrays\obj\Debug\netcoreapp3.1\SimpleArrays.genruntimeconfig.cache
