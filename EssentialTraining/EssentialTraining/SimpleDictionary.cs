@@ -23,7 +23,6 @@ namespace EssentialTraining
             {
                 Console.WriteLine(key);
             }
-
         }
     }
 }

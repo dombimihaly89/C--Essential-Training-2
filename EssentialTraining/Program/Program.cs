@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using EssentialTraining;
 
 namespace Program
@@ -29,6 +30,13 @@ namespace Program
             Console.WriteLine("Dictionary: ");
             var simpleDictionary = new SimpleDictionary();
             simpleDictionary.WorkWithDictionary();
+
+            var ternary = ("Blue".ToLower() == "blue") ? "Yes" : "No";
+            Console.WriteLine(ternary);
+
+            var initializedList = new List<int> { 1, 3, 4, 6, 12 };
+            // If an object implements the IEnumerable interface then it can be iterated through with foreach.
+            // Collections usually are implementing the interface.
         }
     }
 }
