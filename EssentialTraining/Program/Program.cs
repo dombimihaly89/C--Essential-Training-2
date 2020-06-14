@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using EssentialTraining;
 using System.IO;
+using NLog;
 
 namespace Program
 {
     public class Program
     {
+        public static Logger logger = LogManager.GetCurrentClassLogger();
         public static List<string> Words;
         static void Main(string[] args)
         {
+            logger.Trace("The program started.");
             //SimpleArray simpleArray = new SimpleArray();
             //Console.WriteLine(simpleArray.ToString());
 
@@ -69,17 +72,23 @@ namespace Program
             catch(DirectoryNotFoundException ex)
             {
                 Console.WriteLine("Couldn't find the directory");
+                logger.Error("The directory was not found." + ex.Message);
                 DirectoryInfo di = Directory.CreateDirectory(@"c:\temp");
                 CreateFile(path);
             }
             catch(FileNotFoundException ex)
             {
                 Console.WriteLine("Couldn't find the file");
+                logger.Error(ex.Message);
                 CreateFile(path);
             }
             catch (Exception ex)
             {
                 Console.WriteLine("An error occured " + ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("The finally runs all the time");
             }
         }
 

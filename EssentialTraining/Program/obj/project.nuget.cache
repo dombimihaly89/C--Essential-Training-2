@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3BOKfEvTprMfbMYlsBmE8UYRtzT/jPTZTgPJvwg67jIs3wufqRw3mluu32PvWgrR8hMurn0dOeF7dY3s3WrT1Q==",
+  "dgSpecHash": "csJC6xCT4lm65atMH3XjXJZxpCTP1IR9q/p1eSzKjMw/ruo2RxGENI08oj/LRbgdT3j8P7Rpb/A8dZKA3Q07Ag==",
   "success": true,
   "projectFilePath": "C:\\Users\\dombi\\OneDrive\\Asztali gép\\C# Essential Training 2\\EssentialTraining\\Program\\Program.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dombi\\.nuget\\packages\\nlog\\4.7.2\\nlog.4.7.2.nupkg.sha512",
+    "C:\\Users\\dombi\\.nuget\\packages\\nlog.config\\4.7.2\\nlog.config.4.7.2.nupkg.sha512",
+    "C:\\Users\\dombi\\.nuget\\packages\\nlog.schema\\4.7.2\\nlog.schema.4.7.2.nupkg.sha512"
+  ],
   "logs": []
 }

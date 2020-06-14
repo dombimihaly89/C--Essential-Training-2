@@ -96,6 +96,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
