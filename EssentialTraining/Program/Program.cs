@@ -53,21 +53,42 @@ namespace Program
 
         private static void ReadTextFile()
         {
+            string path = @"C:\temp\test.txt";
             try
             {
                 // If we use the @ sign before the quote then we don't get any problem with tha backslash character's
                 // escaping behaviour. If we didn't use then it would escape the character after that.
                 // We use the using statement here because we want to use a class that implements the IDisposable
                 // interface. When we use a class like this we don't have to deal with opening and closing the filestream.
-                using (var sr = new StreamReader(@"C:\temp\test.txt"))
+                using (var sr = new StreamReader(path))
                 {
                     string contents = sr.ReadToEnd();
                     Console.WriteLine(contents);
                 }
             }
-            catch
+            catch(DirectoryNotFoundException ex)
             {
-                Console.WriteLine("Couldn't read the file");
+                Console.WriteLine("Couldn't find the directory");
+                DirectoryInfo di = Directory.CreateDirectory(@"c:\temp");
+                CreateFile(path);
+            }
+            catch(FileNotFoundException ex)
+            {
+                Console.WriteLine("Couldn't find the file");
+                CreateFile(path);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occured " + ex.Message);
+            }
+        }
+
+        public static void CreateFile(string path)
+        {
+            using (FileStream fs = File.Create(path))
+            {
+                byte[] info = new System.Text.UTF8Encoding(true).GetBytes("This is a test");
+                fs.Write(info, 0, info.Length);
             }
         }
 
