@@ -22,5 +22,13 @@ namespace EssentialTrainingTests
             var testInstance = new SimpleArray();
             Assert.IsTrue(testInstance.ToString().StartsWith("Bread"));
         }
+
+        [TestMethod]
+        public void TestContainsAnimal()
+        {
+            var testInstance = new SimpleArray();
+            Assert.IsTrue(testInstance.containsAnimal("cat"));
+            Assert.IsFalse(testInstance.containsAnimal("crocodil"));
+        }
     }
 }
